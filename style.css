@@ -31,13 +31,32 @@ h1 {
     font-size: 18px;
     font-weight: bold;
 }
-.ScrittoDa span {
-    color:#0799ba;
-}
-
-.data {
+.ScrittoDa .data {
     color: gray;
     font-size: 16px;
     padding-bottom: 20px;
+    font-weight: normal;
 }
+.ScrittoDa span {
+    color:#0799ba;
+}
+.descrizione {
+    margin: 0;
+}
+
+
 /* /style sezione titolo e foto */
+
+/* style paragrafo + lista */
+
+#paragrafoELista p span {
+    background-color: yellow;
+}
+
+#paragrafoELista ul {
+    list-style-position: inside;
+    margin:0;
+    padding:0;
+}
+
+/* /style paragrafo + lista */
