@@ -60,3 +60,38 @@ h1 {
 }
 
 /* /style paragrafo + lista */
+
+/* style tabella + paragrafo */
+
+#tabellaEParagrafo table.tabella {
+
+    width:100%;
+    text-align: left;
+    margin-top: 30px;
+    border-spacing:0;
+}
+    
+#tabellaEParagrafo th {
+    width: 25%;
+}
+
+#tabellaEParagrafo .cellaDescrizione {
+    width: 50%;
+}
+
+#tabellaEParagrafo thead tr {
+    background-color: #2facde;
+    color:white;
+
+    
+}
+
+#tabellaEParagrafo tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#tabellaEParagrafo p span {
+    background-color: yellow;
+}
+
+/* /style tabella + paragrafo */
