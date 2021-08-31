@@ -1,0 +1,17 @@
+
+/* style barra booleaner */
+body {
+    margin:0;
+}
+header {
+    background-image: url("./img/pattern.png");
+    background-size:30%;
+    background-color: lightblue;
+    }
+
+.logo {
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+/* /style barra booleaner */
